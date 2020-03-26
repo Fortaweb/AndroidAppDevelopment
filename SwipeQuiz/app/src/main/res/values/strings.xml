@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Swipe Quiz Kotlin</string>
+    <string name="title">Quiz instructions</string>
+    <string name="subtitle">Swipe right for true, swipe left for false.</string>
+    <string name="answer_not_correct">Your answer is not correct</string>
+    <string name="answer_is_true">Answer is correct</string>
+    <string name="answer_is_false">Answer is not correct</string>
+    <string name="finished">You are finished!</string>
+</resources>

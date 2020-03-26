@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Logica App Kotlin</string>
+    <string name="title">Conjunction (AND)</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="AB">A ^ B</string>
+    <string name="T">T</string>
+    <string name="F">F</string>
+    <string name="input_hint">T or F</string>
+    <string name="checkBtn">Check</string>
+    <string name="number_answers_correct">The correct number of answers is: %d</string>
+</resources>
