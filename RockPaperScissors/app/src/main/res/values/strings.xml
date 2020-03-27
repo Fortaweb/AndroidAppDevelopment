@@ -5,8 +5,11 @@
     <string name="play_statistics">Your all time statistics</string>
     <string name="play_statistics_values">Win: %d Draw: %d Lose: %d</string>
     <string name="you_win">You win!</string>
+    <string name="you_draw">Draw</string>
     <string name="you_lose">You lose</string>
     <string name="you">You</string>
     <string name="computer">Computer</string>
     <string name="vs">V.S.</string>
+    <string name="menu_history">History</string>
+    <string name="history_title">Your Game History</string>
 </resources>

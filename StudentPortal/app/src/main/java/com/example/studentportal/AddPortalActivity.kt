@@ -21,7 +21,7 @@ class AddPortalActivity : AppCompatActivity() {
     private fun initViews() {
         // Setup action bar with title and back button
         val actionbar = supportActionBar
-        actionbar!!.title = "Create a portal"
+        actionbar!!.title = getString(R.string.create_portal_title)
         actionbar.setDisplayHomeAsUpEnabled(true)
 
         // Set onclick listener for add portal button
