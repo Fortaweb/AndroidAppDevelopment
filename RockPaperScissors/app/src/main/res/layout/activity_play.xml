@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlayActivity">
+    tools:context=".ui.PlayActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="56dp"
-        tools:context=".PlayActivity">
+        tools:context=".ui.PlayActivity">
 
         <TextView
             android:id="@+id/textViewPlayTitle"
@@ -78,77 +78,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewStatistics" />
 
-        <TextView
-            android:id="@+id/textViewPlayWinMsg"
-            android:layout_width="wrap_content"
+        <include
+            android:id="@+id/playResultInclude"
+            layout="@layout/fragment_play_result"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:text="@android:string/unknownName"
-            android:textSize="18sp"
-            android:textStyle="bold"
+            android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewStatisticsValue" />
-
-        <ImageView
-            android:id="@+id/imageViewComputer"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="52dp"
-            android:background="@color/colorPrimaryDark"
-            app:layout_constraintEnd_toStartOf="@+id/textViewPlayVS"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewPlayWinMsg"
-            app:srcCompat="@drawable/rock" />
-
-        <TextView
-            android:id="@+id/textViewPlayComputer"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:text="@string/computer"
-            android:textAlignment="center"
-            app:layout_constraintEnd_toStartOf="@+id/textViewPlayYou"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewComputer" />
-
-        <ImageView
-            android:id="@+id/imageViewYou"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="24dp"
-            android:background="@color/colorPrimaryDark"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textViewPlayVS"
-            app:layout_constraintTop_toBottomOf="@+id/textViewPlayWinMsg"
-            app:srcCompat="@drawable/paper" />
-
-        <TextView
-            android:id="@+id/textViewPlayYou"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/you"
-            android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textViewPlayComputer"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewYou" />
-
-        <TextView
-            android:id="@+id/textViewPlayVS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="77dp"
-            android:text="@string/vs"
-            android:textSize="36sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintEnd_toStartOf="@+id/imageViewYou"
-            app:layout_constraintStart_toEndOf="@+id/imageViewComputer"
-            app:layout_constraintTop_toBottomOf="@+id/textViewPlayWinMsg" />
 
         <LinearLayout
             android:layout_width="0dp"
