@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Income and Expenses App</string>
+    <string name="title_home">Overview</string>
+    <string name="title_dashboard">Income</string>
+    <string name="title_notifications">Expenses</string>
+    <string name="title_about">About</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_edit_income">Edit Income</string>
+    <string name="title_edit_expenses">Edit Expenses</string>
+    <string name="input_name">Name</string>
+    <string name="input_amount">Amount</string>
+    <string name="input_category">Category</string>
+</resources>
