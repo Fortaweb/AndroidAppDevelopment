@@ -7,4 +7,6 @@
         - Finish homework
         - Sports
     </string>
+    <string name="notepad_title">Notepad title</string>
+    <string name="notepad_description">Notepad description</string>
 </resources>
