@@ -4,10 +4,43 @@
     <string name="title_dashboard">Income</string>
     <string name="title_notifications">Expenses</string>
     <string name="title_about">About</string>
+    <string name="title_add_income">Add Income</string>
+    <string name="title_add_expenses">Add Expenses</string>
     <string name="title_edit">Edit</string>
-    <string name="title_edit_income">Edit Income</string>
+    <string name="title_income_overview">Income Overview</string>
+    <string name="title_expenses_overview">Expenses Overview</string>
     <string name="title_edit_expenses">Edit Expenses</string>
     <string name="input_name">Name</string>
     <string name="input_amount">Amount</string>
+    <string name="input_date">Date</string>
     <string name="input_category">Category</string>
+    <string name="btn_save">Save</string>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="income_categories">
+        <item>Work</item>
+        <item>Interest</item>
+        <item>Stocks</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="expenses_categories">
+        <item>Mortgage</item>
+        <item>Utility bills</item>
+        <item>Insurances</item>
+        <item>Clothing</item>
+        <item>Fun / hobby</item>
+        <item>Other</item>
+    </string-array>
 </resources>

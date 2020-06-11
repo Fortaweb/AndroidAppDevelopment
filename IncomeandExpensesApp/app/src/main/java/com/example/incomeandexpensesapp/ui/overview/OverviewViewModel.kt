@@ -1,13 +1,14 @@
 package com.example.incomeandexpensesapp.ui.overview
 
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.incomeandexpensesapp.database.TransactionRepository
 
-class OverviewViewModel : ViewModel() {
+class OverviewViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is overview Fragment"
-    }
-    val text: LiveData<String> = _text
+    val transactionRepository = TransactionRepository(application.applicationContext)
+
 }

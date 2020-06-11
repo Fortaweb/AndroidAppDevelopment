@@ -3,22 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_overview">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_overview"
         android:name="com.example.incomeandexpensesapp.ui.overview.OverviewFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_overview" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_income"
         android:name="com.example.incomeandexpensesapp.ui.income.IncomeFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_income" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_expenses"
         android:name="com.example.incomeandexpensesapp.ui.expenses.ExpensesFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_expenses" />
